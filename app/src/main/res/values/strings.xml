@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuickBites</string>
+    <string name="app_description">Instantly indulge with "QuickBites" -
+        the ultimate on-demand dining experience. Explore, order, and enjoy
+        a wide range of cuisines delivered to your doorstep in a snap.
+        QuickBites: your shortcut to deliciousness.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_branch">Makati</string>
+    <string name="text_order">Browse catalogue</string>
+</resources>
