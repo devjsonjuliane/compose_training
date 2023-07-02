@@ -22,6 +22,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,8 +39,9 @@ fun UpperPanel() {
         horizontalAlignment = Alignment.Start,
     ) {
         Text(
-            text = stringResource(id = R.string.app_name), fontSize = 30.sp,
-            color = Color(0xFFFF781F)
+            text = stringResource(id = R.string.app_name), fontSize = 36.sp,
+            color = Color(0xFFFF781F),
+            fontFamily = FontFamily.Cursive
         )
         Text(
             text = stringResource(R.string.text_branch), fontSize = 16.sp,
